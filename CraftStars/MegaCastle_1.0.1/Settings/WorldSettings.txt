@@ -1,3 +1,0 @@
-WorldName=Mega Castle
-InitialSpawn=-155 87 416
-Seed=22511
