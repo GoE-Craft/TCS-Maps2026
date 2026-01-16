@@ -1,0 +1,6 @@
+﻿pack.name=RP NAME
+pack.description=RP DESCRIPTION
+
+## ENTITIES ##
+
+entity.goe_tmp:demo.name=Demo
