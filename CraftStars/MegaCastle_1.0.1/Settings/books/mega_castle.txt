@@ -1,0 +1,39 @@
+TITLE=Mega Castle
+AUTHOR=Castle Explorer
+//PAGE 1
+§rWelcome to the §lMega Castle
+
+§rYou've spawned at the most MASSIVE castle ever built! 
+§rHuge halls, endless rooms, libraries, armory, crop farms, and towering walls await.
+
+§rGet ready to rule this kingdom!
+//PAGE 2
+§r§lChoose Your Path!
+
+§r§lKnight: §rPatrol the walls and defend the gates.
+
+§r§lKing or Queen: §rRule from the throne and lead your kingdom.
+
+§r§lAdventurer: §rExplore the lands, hunt treasures, and protect the kingdom!
+//PAGE 3
+§r§lPortal Quest
+
+§rLegends say two hidden portals lie within these walls.
+
+§rSearch every tower and room to find the End portal and Nether portal.
+§rThey're waiting somewhere!
+
+§rCan you find them both?
+//PAGE 4
+§r§lRule and Thrive
+
+§rGather food from farms, build your base, and claim the throne.
+
+§rInvite friends, expand your kingdom, and enjoy your new castle!
+//PAGE 5
+§rHope you love your castle home!
+
+§rInvite friends to explore and show off this amazing building!
+
+§rPlease give this map a 5-star rating! Thanks for playing!
+//PAGE 6
