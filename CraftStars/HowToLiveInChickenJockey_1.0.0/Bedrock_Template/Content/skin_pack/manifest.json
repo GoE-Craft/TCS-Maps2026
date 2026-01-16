@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "metadata" : {
+        "authors" : [ "The Craft Stars", "All Rights Reserved." ]
+    },
+    "header": {
+        "name": "HowToLiveInChickenJockeySkinPack",
+        "uuid": "bfe48d2c-7061-4aaf-a8e3-eb8829ca0592",
+        "version": [1,0,0]
+    },
+    "modules": [
+        {
+            "type": "skin_pack",
+            "uuid": "71ca90ff-e385-45a8-b229-27d167a9688d",
+            "version": [1,0,0]
+        }
+    ]
+}

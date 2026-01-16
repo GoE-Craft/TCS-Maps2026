@@ -1,0 +1,5 @@
+WorldName=How To Live In Chicken Jockey?
+DefaultGameMode=survival
+InitialSpawn=-315 98 233
+Seed=128451
+WorldType=normal

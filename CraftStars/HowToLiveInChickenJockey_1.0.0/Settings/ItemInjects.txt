@@ -1,0 +1,7 @@
+# ReplaceCotainedItem oldItemName oldItemDamage itemName itemDamage
+# SetContainerSlot x y z slot itemName itemDamage count [ItemIdentifier]
+
+# BOOK
+# SetContainerSlot x y z 10 book:guidebook 0 1
+
+SetContainerSlot -316 98 235 13 book:how_to_live_in_chicken_jockey 0 1

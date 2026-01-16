@@ -1,0 +1,78 @@
+  {
+  "skins": [
+    {
+      "localization_name": "Caleb",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Caleb_customSlim.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "Charlotte",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Charlotte_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Sebastian",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Sebastian_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Lily",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Lily_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Jackson",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Jackson_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Henry",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Henry_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Owen",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Owen_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Daniel",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Daniel_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Harper",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Harper_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Grace",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Grace_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Emily",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Emily_customSlim.png",
+      "type": "paid"
+    },
+    {
+      "localization_name": "Emma",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "Emma_customSlim.png",
+      "type": "paid"
+    }
+  ],
+  "serialize_name": "HowToLiveInChickenJockeySkinPack",
+  "localization_name": "HowToLiveInChickenJockeySkinPack"
+}
