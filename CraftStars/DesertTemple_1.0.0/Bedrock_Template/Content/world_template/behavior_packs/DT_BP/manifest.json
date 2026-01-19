@@ -1,0 +1,20 @@
+{
+  "format_version": 2,
+  "header": {
+    "min_engine_version": [1, 21, 130],
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "005fcd59-50ee-44b1-a1f0-27b331e2d36d",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "eead5e01-e5c7-4974-ac98-bf9839437a8a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["The Craft Stars", "All Rights Reserved."]
+  }
+}

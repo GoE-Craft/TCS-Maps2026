@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "base_game_version": [1, 21, 130],
+    "lock_template_options": true,
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "911d44dd-b27f-4f64-81fd-dad37ed4d0ed",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "world_template",
+      "uuid": "b6f6d541-87fb-4a78-a233-a762e31a1612",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["The Craft Stars", "All Rights Reserved."]
+  }
+}

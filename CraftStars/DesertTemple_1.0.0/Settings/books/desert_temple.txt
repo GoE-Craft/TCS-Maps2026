@@ -1,0 +1,29 @@
+TITLE=Desert Temple
+AUTHOR=Lost Explorer
+//PAGE 1
+§rWelcome to the Desert Temple!
+
+§rExplore a vast desert filled with secrets, a huge village, and a giant temple guarding ancient mysteries.
+//PAGE 2
+§rLong ago, explorers built this great temple to protect a powerful treasure.
+
+§rOver time, the shifting sands covered their paths and buried their clues.
+//PAGE 3
+§rNow it's your turn to uncover the secrets!
+
+§rFrom dusty halls to deep underground chambers, the temple is full of surprises waiting for brave adventurers.
+//PAGE 4
+§rStart your journey in the desert village.
+
+§rGather supplies, trade with villagers, and prepare for your expedition into the scorching wilds.
+//PAGE 5
+§rVenture into the Tomb below.
+
+§rExplore towering halls, beware of traps, and search every corner for hidden loot.
+//PAGE 6
+§rThanks for playing Desert Temple!
+
+§rDon't forget to rate this map 5 STARS on the Marketplace.
+
+§rYour support helps us create more awesome adventures for you!
+//PAGE 7

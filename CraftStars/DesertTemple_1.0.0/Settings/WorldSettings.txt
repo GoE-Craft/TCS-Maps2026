@@ -1,0 +1,3 @@
+WorldName=Desert Temple
+InitialSpawn=-3318 85 1192
+Seed=123212
