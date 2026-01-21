@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tcs_vlg:celebration_fx",
+      "materials": { "default": "entity", "alpha": "entity_alphatest" },
+      "textures": { "default": "textures/tcs/tad/entity/empty" },
+      "render_controllers": ["controller.render.default"],
+      "geometry": { "default": "geometry.tcs_vlg.empty" },
+      "particle_effects": {
+        "floor_particles": "tcs_vlg:celebration_floor_particles",
+        "fireworks": "tcs_vlg:celebration_fireworks"
+      },
+      "sound_effects": {
+        "celebrate": "tcs_vlg:celebrate",
+        "fireworks": "firework.blast"
+      },
+      "animations": {
+        "particles": "animation.tcs_vlg.celebration_fx.particles",
+        "sounds": "animation.tcs_vlg.celebration_fx.sounds"
+      },
+      "scripts": {
+        "animate": [
+          "particles",
+          "sounds"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format_version": 2,
+  "header": {
+    "min_engine_version": [1, 21, 130],
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "aae54477-aba5-48de-a65a-7259987f5c8a",
+    "pack_scope": "world",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "11a2ee95-67c3-4bda-aab9-4065eed23d3d",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Game main loop",
+      "type": "script",
+      "uuid": "73edb974-0958-4031-9a42-ed7b1d4699be",
+      "version": [1, 0, 0],
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0"
+    },
+    {
+      "uuid": "e054756a-f6f1-4ebd-bc92-a6d32117a889",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["The Craft Stars", "All Rights Reserved."]
+  }
+}

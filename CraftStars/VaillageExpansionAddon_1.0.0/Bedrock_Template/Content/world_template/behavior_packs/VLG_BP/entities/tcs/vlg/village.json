@@ -1,0 +1,153 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "tcs_vlg:village",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+		"component_groups": { 
+			"tcs_vlg:instant_despawn": { "minecraft:instant_despawn": {} }
+		},
+        "components": {
+			"minecraft:type_family": { "family": [ "util", "furniture" ] },
+            "minecraft:health": { "value": 2, "max": 2 },
+            "minecraft:knockback_resistance": { "value": 1 },
+            "minecraft:damage_sensor": { "triggers": [ { "cause": "all", "deals_damage": false } ] },
+			"minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+            "minecraft:collision_box": { "width": 0, "height": 0 },
+			"minecraft:scale": { "value": 0 },
+            "minecraft:physics": { "has_gravity": false }
+        },
+		"events": {
+			"tcs_vlg:remove": { "add": { "component_groups": [ "tcs_vlg:instant_despawn" ] } },
+
+			"tcs_vlg:pond_1": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load pond_1" ] } },
+			"tcs_vlg:pond_2": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load pond_2" ] } },
+			"tcs_vlg:pond_4": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load pond_4" ] } },
+			"tcs_vlg:wagon_1": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load wagon_1" ] } },
+			"tcs_vlg:wagon_2": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load wagon_2" ] } },
+			"tcs_vlg:wagon_3": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load wagon_3" ] } },
+			"tcs_vlg:air_balloon_4": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load air_balloon_4" ] } },
+			"tcs_vlg:air_balloon_5": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load air_balloon_5" ] } },
+			"tcs_vlg:air_balloon_6": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load air_balloon_6" ] } },
+			"tcs_vlg:excalibur": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load excalibur" ] } },
+			"tcs_vlg:ancient_temple_2": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ancient_temple_2" ] } },
+			"tcs_vlg:skeleton_dungeon_top": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load skeleton_dungeon_top" ] } },
+			"tcs_vlg:creaking_dungeon_top": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load creaking_dungeon_top" ] } },
+			"tcs_vlg:castle_ruins_top": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load castle_ruins_top" ] } },
+			"tcs_vlg:mystic_tree_top": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load mystic_tree_top" ] } },
+			"tcs_vlg:dragonbone_dungeon_top": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load dragonbone_dungeon_top" ] } },
+			"tcs_vlg:space_rocket": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load space_rocket" ] } },
+			"tcs_vlg:ufo": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ufo" ] } },
+			"tcs_vlg:villager_knight_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load villager_knight_statue" ] } },
+			"tcs_vlg:creeper_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load creeper_statue" ] } },
+			"tcs_vlg:cozy_campsite": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load cozy_campsite" ] } },
+
+			"tcs_vlg:badlands_hut": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load badlands_hut" ] } },
+			"tcs_vlg:badlands_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load badlands_temple" ] } },
+			"tcs_vlg:campsite": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load campsite" ] } },
+			"tcs_vlg:badlands_shelter": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load badlands_shelter" ] } },
+			"tcs_vlg:phoenix_monument": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load phoenix_monument" ] } },
+
+			"tcs_vlg:lighthouse": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load lighthouse" ] } },
+			"tcs_vlg:beach_house": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load beach_house" ] } },
+        	"tcs_vlg:drowned_outpost": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load drowned_outpost" ] } },
+        
+			"tcs_vlg:amethyst_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load amethyst_tower" ] } },
+
+			"tcs_vlg:palm_1": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load palm_1" ] } },
+			"tcs_vlg:palm_2": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load palm_2" ] } },
+			"tcs_vlg:palm_3": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load palm_3" ] } },
+			"tcs_vlg:palm_4": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load palm_4" ] } },
+			"tcs_vlg:desert_hut": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load desert_hut" ] } },
+			"tcs_vlg:desert_campsite": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load desert_campsite" ] } },
+
+			"tcs_vlg:desert_haven": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load desert_haven" ] } },
+			"tcs_vlg:desert_homestead": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load desert_homestead" ] } },
+			"tcs_vlg:small_campsite": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load small_campsite" ] } },
+			"tcs_vlg:pond_3": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load pond_3" ] } },
+			"tcs_vlg:obelisk": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load obelisk" ] } },
+			"tcs_vlg:desert_ruins": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load desert_ruins" ] } },
+			"tcs_vlg:great_sphinx": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load great_sphinx" ] } },
+			"tcs_vlg:desert_pyramid": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load desert_pyramid" ] } },
+            
+			"tcs_vlg:bee_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load bee_statue" ] } },
+			"tcs_vlg:sniffer_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load sniffer_statue" ] } },
+			"tcs_vlg:hobbit_house": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load hobbit_house" ] } },
+			"tcs_vlg:greenhouse": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load greenhouse" ] } },
+			"tcs_vlg:windmill": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load windmill" ] } },
+
+			"tcs_vlg:forest_cabin": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load forest_cabin" ] } },
+			"tcs_vlg:zombie_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load zombie_statue" ] } },
+			"tcs_vlg:ancient_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ancient_temple" ] } },
+			"tcs_vlg:zombie_outpost": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load zombie_outpost" ] } },
+			"tcs_vlg:dark_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load dark_tower" ] } },
+			
+			"tcs_vlg:ancient_ruins": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ancient_ruins" ] } },
+			"tcs_vlg:jungle_hut": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load jungle_hut" ] } },
+			"tcs_vlg:ruined_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ruined_tower" ] } },
+			"tcs_vlg:enderman_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load enderman_statue" ] } },
+
+			"tcs_vlg:mushroom_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load mushroom_temple" ] } },
+			"tcs_vlg:mushroom_hut": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load mushroom_hut" ] } },
+			"tcs_vlg:mushroom_hut_2": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load mushroom_hut_2" ] } },
+			"tcs_vlg:mushroom_tree": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load mushroom_tree" ] } },
+
+			"tcs_vlg:sunken_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load sunken_temple" ] } },
+			"tcs_vlg:sunken_temple2": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load sunken_temple2" ] } },
+			"tcs_vlg:ship": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ship" ] } },
+			"tcs_vlg:pirate_ship": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load pirate_ship" ] } },
+			"tcs_vlg:frozen_shipwreck": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load frozen_shipwreck" ] } },
+			
+			"tcs_vlg:villager_campsite": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load villager_campsite" ] } },
+			"tcs_vlg:village_castle": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load village_castle" ] } },
+			"tcs_vlg:big_oak_tree": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load big_oak_tree" ] } },
+			"tcs_vlg:market_stand": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load market_stand" ] } },
+			"tcs_vlg:plains_homestead": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load plains_homestead" ] } },
+			"tcs_vlg:iron_golem_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load iron_golem_statue" ] } },
+			"tcs_vlg:cottage": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load cottage" ] } },
+			"tcs_vlg:animal_farm": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load animal_farm" ] } },
+			"tcs_vlg:iron_golem_farm": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load iron_golem_farm" ] } },
+			"tcs_vlg:tree_house": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load tree_house" ] } },
+			"tcs_vlg:giant_tree_house": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load giant_tree_house" ] } },
+			"tcs_vlg:huge_nether_portal": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load huge_nether_portal" ] } },
+
+			"tcs_vlg:savanna_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load savanna_temple" ] } },
+			"tcs_vlg:savanna_lodge": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load savanna_lodge" ] } },
+			"tcs_vlg:villager_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load villager_statue" ] } },
+			"tcs_vlg:mighty_prison_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load mighty_prison_tower" ] } },
+            "tcs_vlg:ancient_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ancient_tower" ] } },
+            
+			"tcs_vlg:ice_castle": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ice_castle" ] } },
+			"tcs_vlg:stray_outpost": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load stray_outpost" ] } },
+			"tcs_vlg:ice_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load ice_temple" ] } },
+			"tcs_vlg:frozen_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load frozen_temple" ] } },
+			"tcs_vlg:snowy_cabin": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load snowy_cabin" ] } },
+
+			"tcs_vlg:swamp_hideaway": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load swamp_hideaway" ] } },
+			"tcs_vlg:witch_outpost": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load witch_outpost" ] } },
+			"tcs_vlg:wizard_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load wizard_tower" ] } },
+			"tcs_vlg:swamp_cabin": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load swamp_cabin" ] } },
+			"tcs_vlg:nether_skull_portal": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load nether_skull_portal" ] } },
+			"tcs_vlg:haunted_mansion": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load haunted_mansion" ] } },
+
+			"tcs_vlg:skeleton_outpost": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load skeleton_outpost" ] } },
+			"tcs_vlg:taiga_hall": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load taiga_hall" ] } },
+			"tcs_vlg:shelter": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load shelter" ] } },
+			"tcs_vlg:medieval_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load medieval_tower" ] } },
+			"tcs_vlg:graveyard": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load graveyard" ] } },
+			"tcs_vlg:beacon_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load beacon_tower" ] } },
+			
+			"tcs_vlg:end_castle": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load end_castle" ] } },
+			"tcs_vlg:end_temple": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load end_temple" ] } },
+			"tcs_vlg:end_tower": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load end_tower" ] } },
+			"tcs_vlg:obsidian_pillar": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load obsidian_pillar" ] } },
+			"tcs_vlg:end_rock": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load end_rock" ] } },
+			"tcs_vlg:copper_golem_statue": { "queue_command": { "command": [ "scriptevent tcs_vlg:village_load copper_golem_statue" ] } }
+            
+			
+		}
+    }
+}

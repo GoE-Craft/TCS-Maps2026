@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "min_engine_version": [1, 21, 130],
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "e054756a-f6f1-4ebd-bc92-a6d32117a889",
+    "pack_scope": "world",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "1cfb246d-955a-4bf4-83e6-531b6643a803",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "aae54477-aba5-48de-a65a-7259987f5c8a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities": ["pbr"],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["The Craft Stars", "All Rights Reserved."]
+  }
+}

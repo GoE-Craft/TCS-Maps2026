@@ -1,0 +1,10 @@
+//#structure_name (no prefix)
+//type=area\items
+//save=disc\memory\both
+//location=x y z x y z
+//item=itemName itemDamage count [egg-identifier] [ enchantName enchantLevel, ...]
+// itemName itemDamage count [ enchantName enchantLevel, ...]
+
+#book
+type=items
+item=tcs_vlg:book 0 1

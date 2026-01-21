@@ -1,0 +1,11 @@
+WorldName=Village Expansion AddOn
+OwnerPrefix=tcs_vlg
+DoFireTick=true
+InitialSpawn=10 101 10
+Seed=6
+ShowTags=false
+SendCommandFeedback=true
+CommandBlockOutput=true
+DefaultGameMode=creative
+DoDaylightCycle=true
+ActivateCheats=true

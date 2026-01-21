@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "tcs_vlg:celebrate": {
+      "category": "music",
+      "sounds": [{ "name": "sounds/tcs/tad/sfx/challenge_win", "volume": 0.2 }]
+    },
+    "tcs_vlg:reward": {
+      "category": "block",
+      "sounds": [
+        { "name": "sounds/tcs/vlg/sfx/reward", "volume": 1.0, "weight": 10 }
+      ]
+    },
+    "tcs_vlg:info": {
+      "category": "block",
+      "sounds": [
+        { "name": "sounds/tcs/vlg/sfx/info", "volume": 1.0, "weight": 10 }
+      ]
+    },
+    "tcs_vlg:book_button_click": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/tcs/vlg/sfx/book_button_click",
+          "volume": 1.0,
+          "weight": 10
+        }
+      ]
+    },
+    "tcs_vlg:book_open": {
+      "category": "block",
+      "sounds": [
+        { "name": "sounds/tcs/vlg/sfx/book_open", "volume": 0.5, "weight": 10 }
+      ]
+    }
+  }
+}

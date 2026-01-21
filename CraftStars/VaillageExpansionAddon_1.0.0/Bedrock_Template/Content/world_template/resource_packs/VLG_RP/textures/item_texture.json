@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "Combine Weapons Add-On",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "tcs_vlg:book": {
+      "textures": "textures/tcs/vlg/items/guide_book"
+    },
+    "tcs_vlg:intro": {
+      "textures": "textures/tcs/vlg/items/intro"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+
+!mob_spawner
+type=mob_spawner
+UseSummonBlock=true
+// mob will be taken from line2 in sign (for spawn event command)
+// optional time referesh (seconds) will be taken from line4 in sign
+
+!village
+type=village
+UseSummonBlock=true
+// mob will be taken from line2 in sign (for spawn event command)
