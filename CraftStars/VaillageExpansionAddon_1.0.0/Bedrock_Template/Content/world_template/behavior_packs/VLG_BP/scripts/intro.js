@@ -43,7 +43,7 @@ function advanceIntro(player) {
     {
         player.setDynamicProperty("tcs_vlg_intro_active", false);
         player.setDynamicProperty("tcs_vlg_intro_next_tick", undefined);
-        player.setDynamicProperty("tcs_vlg_intro_step", undefined);
+        player.setDynamicProperty("tcs_vlg_intro_step", 999);
 
         game.runPlayerCommand(player, `structure load tcs_vlg:book ~ ~ ~`);
         player.dimension.spawnEntity("tcs_vlg:celebration_fx", player.location);
