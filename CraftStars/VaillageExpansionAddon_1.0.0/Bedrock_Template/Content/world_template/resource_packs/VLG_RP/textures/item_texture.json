@@ -7,6 +7,30 @@
     },
     "tcs_vlg:intro": {
       "textures": "textures/tcs/vlg/items/intro"
+    },
+    "tcs_vlg:spawn_egg_mesa_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_mesa_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_swamp_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_swamp_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_ocean_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_ocean_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_forest_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_forest_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_end_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_end_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_mooshroom_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_mooshroom_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_mining_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_mining_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_fishing_iron_golem": {
+      "textures": "textures/tcs/vlg/spawneggs/spawn_eggs/spawn_egg_fishing_iron_golem"
     }
   }
 }

@@ -2,19 +2,19 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "tcs_vlg:irongolem_mesa",
+      "identifier": "tcs_vlg:irongolem_end",
       "materials": {
         "default": "iron_golem"
       },
       "textures": {
-        "default": "textures/tcs/vlg/entity/golem/mesa_iron_golem",
+        "default": "textures/tcs/vlg/entity/golem/end_iron_golem",
         "cracked_high": "textures/entity/iron_golem/cracked_high",
         "cracked_med": "textures/entity/iron_golem/cracked_medium",
         "cracked_low": "textures/entity/iron_golem/cracked_low",
         "cracked_none": "textures/entity/iron_golem/cracked_none"
       },
       "geometry": {
-        "default": "geometry.irongolem_mesa"
+        "default": "geometry.irongolem_end"
       },
       "animations": {
         "walk": "animation.tcs_iron_golem.walk",
@@ -42,7 +42,7 @@
         ]
       },
       "spawn_egg": {
-        "texture": "spawn_egg_mesa_iron_golem"
+        "texture": "spawn_egg_end_iron_golem"
       }
     }
   }
