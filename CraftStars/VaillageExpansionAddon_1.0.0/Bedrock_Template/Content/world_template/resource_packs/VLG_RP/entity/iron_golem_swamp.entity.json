@@ -42,7 +42,7 @@
         ]
       },
       "spawn_egg": {
-        "texture": "spawn_egg_swamp_iron_golem"
+        "texture": "tcs_vlg:spawn_egg_swamp_iron_golem"
       }
     }
   }

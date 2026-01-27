@@ -8,3 +8,79 @@
 #book
 type=items
 item=tcs_vlg:book 0 1
+
+#tree_village
+type=area
+location=101 100 0 132 105 31
+replace=gray_stained_glass structure_void
+
+#mesa_house1
+type=area
+location=21 101 41 34 110 54
+replace=gray_stained_glass structure_void
+
+#mesa_house2
+type=area
+location=41 101 41 54 112 54
+replace=gray_stained_glass structure_void
+
+#mesa_house3
+type=area
+location=61 101 41 74 113 54
+replace=gray_stained_glass structure_void
+
+#mesa_house4
+type=area
+location=81 101 41 94 113 54
+replace=gray_stained_glass structure_void
+
+#mesa_market
+type=area
+location=101 101 41 114 113 54
+replace=gray_stained_glass structure_void
+
+#mesa_wharehouse
+type=area
+location=121 101 41 134 113 54
+replace=gray_stained_glass structure_void
+
+#mesa_blacksmith
+type=area
+location=141 101 41 154 113 54
+replace=gray_stained_glass structure_void
+
+#mesa_library
+type=area
+location=161 101 41 174 113 54
+replace=gray_stained_glass structure_void
+
+#mesa_farm1
+type=area
+location=181 101 41 191 113 51
+replace=gray_stained_glass structure_void
+
+#mesa_farm2
+type=area
+location=201 101 41 211 113 51
+replace=gray_stained_glass structure_void
+
+#mesa_water_source
+type=area
+location=221 101 41 231 113 51
+replace=gray_stained_glass structure_void
+
+#mesa_golem_station
+type=area
+location=241 101 41 251 113 51
+replace=gray_stained_glass structure_void
+
+#mesa_decoration1
+type=area
+location=261 101 41 271 113 51
+replace=gray_stained_glass structure_void
+
+#mesa_decoration2
+type=area
+location=281 101 41 291 113 51
+replace=gray_stained_glass structure_void
+

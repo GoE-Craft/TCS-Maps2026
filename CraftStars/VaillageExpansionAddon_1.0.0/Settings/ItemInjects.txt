@@ -3,4 +3,15 @@
 # BOOK
 # SetContainerSlot x y z 10 book:guidebook 0 1
 
-#SetContainerSlot -443 103 78 13 tcs_vlg:manual 0 1
+SetContainerSlot 0 100 16 0 tcs_vlg:book 0 1
+
+SetContainerSlot 0 100 16 9 tcs_vlg:irongolem_cherry_grove_spawn_egg 0 64
+SetContainerSlot 0 100 16 10 tcs_vlg:irongolem_end_spawn_egg 0 64
+SetContainerSlot 0 100 16 11 tcs_vlg:irongolem_forest_spawn_egg 0 64
+SetContainerSlot 0 100 16 12 tcs_vlg:irongolem_mesa_spawn_egg 0 64
+SetContainerSlot 0 100 16 13 tcs_vlg:irongolem_mooshroom_spawn_egg 0 64
+SetContainerSlot 0 100 16 14 tcs_vlg:irongolem_mining_spawn_egg 0 64
+SetContainerSlot 0 100 16 15 tcs_vlg:irongolem_ocean_spawn_egg 0 64
+SetContainerSlot 0 100 16 16 tcs_vlg:irongolem_swamp_spawn_egg 0 64
+
+SetContainerSlot 0 100 16 18 tcs_vlg:tcs_villager_v2_spawn_egg 0 64
