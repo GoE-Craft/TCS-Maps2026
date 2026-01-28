@@ -13,7 +13,12 @@ async function showWelcomePage(player) {
 	const form = new ActionFormData()
 		.title("§l§1Village Expansion Guide Book§r")
 		.body("")
-		.button("§l§sAbout§r", "textures/tcs/vlg/ui/info");
+		.button("§l§sAbout§r", "textures/tcs/vlg/ui/info")
+		.button("§l§sAbout§r", "textures/tcs/vlg/ui/block")
+		.button("§l§sAbout§r", "textures/tcs/vlg/ui/villager")
+		.button("§l§sAbout§r", "textures/tcs/vlg/ui/iron_golem")
+		.button("§l§sAbout§r", "textures/tcs/vlg/ui/evil_golem")
+		.button("§l§sAbout§r", "textures/tcs/vlg/ui/achievements");
 
 	form.show(player).then((response) => {
 		if (response.canceled) {
@@ -21,6 +26,21 @@ async function showWelcomePage(player) {
 		}
 		switch (response.selection) {
 			case 0:
+				showAboutPage(player);
+				break;
+			case 1:	
+				showAboutPage(player);
+				break;
+			case 2:
+				showAboutPage(player);
+				break;
+			case 3:
+				showAboutPage(player);
+				break;
+			case 4:
+				showAboutPage(player);
+				break;
+			case 5:
 				showAboutPage(player);
 				break;
 		}

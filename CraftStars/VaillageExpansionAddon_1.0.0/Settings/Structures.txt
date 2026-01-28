@@ -20,71 +20,101 @@ replace=gray_stained_glass structure_void
 
 #mesa_house1
 type=area
-location=21 101 41 34 110 54
+location=21 101 41 34 111 54
 replace=gray_stained_glass structure_void
 
 #mesa_house2
 type=area
-location=41 101 41 54 112 54
+location=41 101 41 54 111 54
 replace=gray_stained_glass structure_void
 
 #mesa_house3
 type=area
-location=61 101 41 74 113 54
+location=61 101 41 74 111 54
 replace=gray_stained_glass structure_void
 
 #mesa_house4
 type=area
-location=81 101 41 94 113 54
+location=81 101 41 94 111 54
 replace=gray_stained_glass structure_void
 
-#mesa_market
+#mesa_house5
 type=area
-location=101 101 41 114 113 54
+location=101 101 41 114 111 54
 replace=gray_stained_glass structure_void
 
-#mesa_wharehouse
+#mesa_house6
 type=area
-location=121 101 41 134 113 54
+location=121 101 41 134 112 54
 replace=gray_stained_glass structure_void
 
 #mesa_blacksmith
 type=area
-location=141 101 41 154 113 54
+location=141 101 41 154 109 54
 replace=gray_stained_glass structure_void
 
 #mesa_library
 type=area
-location=161 101 41 174 113 54
+location=161 101 41 174 111 54
 replace=gray_stained_glass structure_void
 
-#mesa_farm1
+#mesa_church
 type=area
-location=181 101 41 191 113 51
+location=181 101 41 194 113 54
 replace=gray_stained_glass structure_void
 
-#mesa_farm2
+#mesa_smithy
 type=area
-location=201 101 41 211 113 51
+location=201 101 41 214 112 54
+replace=gray_stained_glass structure_void
+
+#mesa_workshop
+type=area
+location=221 101 41 234 113 54
+replace=gray_stained_glass structure_void
+
+#mesa_butchery
+type=area
+location=241 101 41 254 114 54
+replace=gray_stained_glass structure_void
+
+#mesa_warehouse
+type=area
+location=261 101 41 274 111 54
+replace=gray_stained_glass structure_void
+
+#mesa_iron_golem_station
+type=area
+location=281 101 41 289 107 49
 replace=gray_stained_glass structure_void
 
 #mesa_water_source
 type=area
-location=221 101 41 231 113 51
+location=301 101 41 309 108 49
 replace=gray_stained_glass structure_void
 
-#mesa_golem_station
+#mesa_gazebo
 type=area
-location=241 101 41 251 113 51
+location=321 101 41 329 110 49
 replace=gray_stained_glass structure_void
 
 #mesa_decoration1
 type=area
-location=261 101 41 271 113 51
+location=341 101 41 349 131 49
 replace=gray_stained_glass structure_void
 
 #mesa_decoration2
 type=area
-location=281 101 41 291 113 51
+location=361 101 41 369 113 49
+replace=gray_stained_glass structure_void
+
+#mesa_light_source1
+type=area
+location=381 101 41 387 107 47
+replace=gray_stained_glass structure_void
+
+#mesa_light_source2
+type=area
+location=401 101 41 407 408 47
 replace=gray_stained_glass structure_void
 

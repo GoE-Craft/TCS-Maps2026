@@ -62,6 +62,51 @@
         "Array.professions[variable.profession_index]"
       ]
     },
+    "controller.render.tcs_villager_v2_accessories": {
+      "arrays": {
+        "textures": {
+          "Array.accessories": [
+            "Texture.no_item",
+            "Texture.pitchfork",
+            "Texture.lantern",
+            "Texture.fishing_rod",
+            "Texture.hammer",
+            "Texture.goggles",
+            "Texture.flower_crown",
+            "Texture.shears",
+            "Texture.potion",
+            "Texture.rope",
+            "Texture.coin_pouch",
+            "Texture.basket",
+            "Texture.backpack"
+          ]
+        },
+        "geometries": {
+          "Array.geos": [ 
+            "Geometry.no_item", 
+            "Geometry.pitchfork",
+            "Geometry.lantern",
+            "Geometry.fishing_rod",
+            "Geometry.hammer",
+            "Geometry.goggles",
+            "Geometry.flower_crown",
+            "Geometry.shears",
+            "Geometry.potion",
+            "Geometry.rope",
+            "Geometry.coin_pouch",
+            "Geometry.basket",
+            "Geometry.backpack" 
+          ]
+        }
+      },
+      "geometry": "Array.geos[q.property('tcs_vlg:item')]",
+      "materials": [
+        { "*": "(query.is_baby || variable.variant == 0) ? Material.default : Material.masked" }
+      ],
+      "textures": [
+        "Array.accessories[q.property('tcs_vlg:item')]"
+      ]
+    },
     "controller.render.villager_v2_level": {
       "arrays": {
         "textures": {

@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:texture_set": {
+		"color": "basket",
+		"metalness_emissive_roughness": "basket_mer",
+		"heightmap": "basket_height"
+	}
+}

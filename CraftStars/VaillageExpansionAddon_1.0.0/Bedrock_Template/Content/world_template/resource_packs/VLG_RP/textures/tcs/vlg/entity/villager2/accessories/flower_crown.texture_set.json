@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:texture_set": {
+		"color": "flower_crown",
+		"metalness_emissive_roughness": "flower_crown_mer",
+		"heightmap": "flower_crown_height"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:texture_set": {
+		"color": "coin_pouch",
+		"metalness_emissive_roughness": "coin_pouch_mer",
+		"heightmap": "coin_pouch_height"
+	}
+}

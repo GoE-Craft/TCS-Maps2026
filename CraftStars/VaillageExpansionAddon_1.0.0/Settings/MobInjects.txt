@@ -49,33 +49,49 @@ type=pillager_golem
 !cherry_villager
 type=tcs_villager_v2
 MarkVariant=1
+Properties=tcs_vlg:item,int,1
++tcs_vlg:trigger_change_item
 
 !end_villager
 type=tcs_villager_v2
 MarkVariant=2
+Properties=tcs_vlg:item,int,2
++tcs_vlg:trigger_change_item
 
 !forest_villager
 type=tcs_villager_v2
 MarkVariant=3
+Properties=tcs_vlg:item,int,3
++tcs_vlg:trigger_change_item
 
 !mesa_villager
 type=tcs_villager_v2
 MarkVariant=0
+Properties=tcs_vlg:item,int,0
++tcs_vlg:trigger_change_item
 
 !mining_villager
 type=tcs_villager_v2
 MarkVariant=7
+Properties=tcs_vlg:item,int,7
++tcs_vlg:trigger_change_item
 
 !moosh_villager
 type=tcs_villager_v2
 MarkVariant=4
+Properties=tcs_vlg:item,int,4
++tcs_vlg:trigger_change_item
 
 !ocean_villager
 type=tcs_villager_v2
 MarkVariant=5
+Properties=tcs_vlg:item,int,5
++tcs_vlg:trigger_change_item
 
 !swamp_villager
 type=tcs_villager_v2
 MarkVariant=6
+Properties=tcs_vlg:item,int,6
++tcs_vlg:trigger_change_item
 
 

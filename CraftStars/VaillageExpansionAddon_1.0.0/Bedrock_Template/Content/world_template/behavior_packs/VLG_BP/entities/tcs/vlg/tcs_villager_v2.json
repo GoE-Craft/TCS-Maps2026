@@ -4,7 +4,14 @@
     "description": {
       "identifier": "tcs_vlg:tcs_villager_v2",
       "is_spawnable": true,
-      "is_summonable": true
+      "is_summonable": true,
+			"properties": {
+				"tcs_vlg:item": {
+					"client_sync": true,
+					"type": "int",
+					"range": [ 0, 12 ],
+					"default": 0
+				}}
     },
     "component_groups": {
       "minecraft:celebrate": {
@@ -1897,6 +1904,15 @@
         "minecraft:mark_variant": {
           "value": 6
         }
+      },
+      "tcs_vlg:trigger_change_item": {
+				"minecraft:timer": {
+					"time": 10,
+					"looping": true,
+					"time_down_event": {
+						"event": "tcs_vlg:change_item"
+					}
+				}
       }
     },
 
@@ -3145,6 +3161,23 @@
 
       "minecraft:stop_celebrating": {
         "remove": { "component_groups": [ "minecraft:celebrate" ] }
+      },
+
+      "tcs_vlg:change_item": {
+        "sequence": [
+          {
+            "filters": { "all_of": [ { "test": "int_property", "domain": "tcs_vlg:item", "operator": "<", "value": 12 } ] },
+            "set_property": { "tcs_vlg:item": "q.property('tcs_vlg:item') + 1" }
+            //,
+            //"trigger": "tcs_vlg:trigger_change_item"
+          },
+          {
+            "filters": { "all_of": [ { "test": "int_property", "domain": "tcs_vlg:item",  "value": 12 } ] },
+            "set_property": {  "tcs_vlg:item": "0"  }
+            //,
+           // "trigger": "tcs_vlg:trigger_change_item"
+          }
+        ]
       }
     }
   }

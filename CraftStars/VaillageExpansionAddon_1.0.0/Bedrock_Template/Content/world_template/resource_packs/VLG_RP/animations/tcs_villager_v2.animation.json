@@ -1,0 +1,497 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tcs_villager.pitchfork": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 1
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.lantern": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 1
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.hammer": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 1
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.fishing_rod": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 1
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.goggles": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 1
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.flower_crown": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 1
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.shears": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 1
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.potion": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 1
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.rope": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 1
+				}
+			}
+		},
+		"animation.tcs_villager.coin_pouch": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 1
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.basket": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 0
+				},
+				"basket": {
+					"scale": 1
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.tcs_villager.backpack": {
+			"animation_length": 5,
+			"bones": {
+				"backpack": {
+					"scale": 1
+				},
+				"basket": {
+					"scale": 0
+				},
+				"coin_pouch": {
+					"scale": 0
+				},
+				"fishing_rod": {
+					"scale": 0
+				},
+				"flower_crown": {
+					"scale": 0
+				},
+				"goggles": {
+					"scale": 0
+				},
+				"hammer": {
+					"scale": 0
+				},
+				"lantern": {
+					"scale": 0
+				},
+				"pitchfork": {
+					"scale": 0
+				},
+				"shears": {
+					"scale": 0
+				},
+				"potion": {
+					"scale": 0
+				},
+				"rope": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

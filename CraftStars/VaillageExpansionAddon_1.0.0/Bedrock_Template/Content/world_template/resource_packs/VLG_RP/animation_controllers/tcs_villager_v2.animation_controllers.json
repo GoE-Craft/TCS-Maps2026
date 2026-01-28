@@ -1,0 +1,87 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.tcs_vlg.tcs_villager_v2": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{"pitchfork": "q.state_time > 10"}
+					]
+				},
+				"pitchfork": {
+					"animations": ["pitchfork"],
+					"transitions": [
+						{"lantern": "q.state_time > 10"}
+					]
+				},
+				"lantern": {
+					"animations": ["lantern"],
+					"transitions": [
+						{"fishing_rod": "q.state_time > 10"}
+					]
+				},
+				"fishing_rod": {
+					"animations": ["fishing_rod"],
+					"transitions": [
+						{"hammer": "q.state_time > 10"}
+					]
+				},
+				"hammer": {
+					"animations": ["hammer"],
+					"transitions": [
+						{"goggles": "q.state_time > 10"}
+					]
+				},
+				"goggles": {
+					"animations": ["goggles"],
+					"transitions": [
+						{"flower_crown": "q.state_time > 10"}
+					]
+				},
+				"flower_crown": {
+					"animations": ["flower_crown"],
+					"transitions": [
+						{"shears": "q.state_time > 10"}
+					]
+				},
+				"shears": {
+					"animations": ["shears"],
+					"transitions": [
+						{"potion": "q.state_time > 10"}
+					]
+				},
+				"potion": {
+					"animations": ["potion"],
+					"transitions": [
+						{"rope": "q.state_time > 10"}
+					]
+				},
+				"rope": {
+					"animations": ["rope"],
+					"transitions": [
+						{"coin_pouch": "q.state_time > 10"}
+					]
+				},
+				"coin_pouch": {
+					"animations": ["coin_pouch"],
+					"transitions": [
+						{"basket": "q.state_time > 10"}
+					]
+				},
+				"basket": {
+					"animations": ["basket"],
+					"transitions": [
+						{"backpack": "q.state_time > 10"}
+					]
+				},
+				"backpack": {
+					"animations": ["backpack"],
+					"transitions": [
+						{"pitchfork": "q.state_time > 10"}
+					]
+				}
+			}
+		}
+	}
+}
