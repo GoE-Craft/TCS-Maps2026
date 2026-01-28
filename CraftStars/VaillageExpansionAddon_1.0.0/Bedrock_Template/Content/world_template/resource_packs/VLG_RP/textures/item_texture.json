@@ -34,6 +34,18 @@
     },
     "tcs_vlg:spawn_egg_fishing_iron_golem": {
       "textures": "textures/tcs/vlg/items/spawn_eggs/spawn_egg_fishing_iron_golem"
+    },
+    "tcs_vlg:spawn_egg_skeleton_golem": {
+      "textures": "textures/tcs/vlg/items/spawn_eggs/spawn_egg_skeleton_golem"
+    },
+    "tcs_vlg:spawn_egg_pillager_golem": {
+      "textures": "textures/tcs/vlg/items/spawn_eggs/spawn_egg_pillager_golem"
+    },
+    "tcs_vlg:spawn_egg_witch_golem": {
+      "textures": "textures/tcs/vlg/items/spawn_eggs/spawn_egg_witch_golem"
+    },
+    "tcs_vlg:spawn_egg_zombie_golem": {
+      "textures": "textures/tcs/vlg/items/spawn_eggs/spawn_egg_zombie_golem"
     }
   }
 }

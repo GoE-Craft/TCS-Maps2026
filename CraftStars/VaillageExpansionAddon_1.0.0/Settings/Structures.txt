@@ -9,6 +9,10 @@
 type=items
 item=tcs_vlg:book 0 1
 
+#empty25
+type=area
+location=1 150 1 25 152 25
+
 #tree_village
 type=area
 location=101 100 0 132 105 31

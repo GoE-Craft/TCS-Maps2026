@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.tcs_vlg.skeleton_golem.attack": { 
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            { "special_attack": "q.mark_variant == 1" }
+          ]
+        },
+        "special_attack": {
+          "animations": [ "attack.special" ],
+          "transitions": [
+            { "default": "q.mark_variant != 1" }
+          ]
+        }
+      }
+    }
+  }
+}

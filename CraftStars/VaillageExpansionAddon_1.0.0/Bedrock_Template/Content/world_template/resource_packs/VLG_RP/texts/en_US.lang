@@ -2,7 +2,6 @@
 pack.description=Village Expansion Add-On Behavior Pack
 
 
-# Entity Spawn Eggs
 item.spawn_egg.entity.tcs_vlg:irongolem_cherry_grove.name=Cherry Grove Iron Golem Spawn Egg
 item.spawn_egg.entity.tcs_vlg:irongolem_end.name=Ended Iron Golem Spawn Egg
 item.spawn_egg.entity.tcs_vlg:irongolem_fishing.name=Fishing Iron Golem Spawn Egg
@@ -13,9 +12,13 @@ item.spawn_egg.entity.tcs_vlg:irongolem_mooshroom.name=Mooshroom Iron Golem Spaw
 item.spawn_egg.entity.tcs_vlg:irongolem_ocean.name=Ocean Iron Golem Spawn Egg
 item.spawn_egg.entity.tcs_vlg:irongolem_swamp.name=Swamp Iron Golem
 
+item.spawn_egg.entity.tcs_vlg:pillager_golem.name=Pillager Golem Spawn Egg
+item.spawn_egg.entity.tcs_vlg:skeleton_golem.name=Skeleton Golem Spawn Egg
+item.spawn_egg.entity.tcs_vlg:zombie_golem.name=Zombie Golem Spawn Egg
+item.spawn_egg.entity.tcs_vlg:witch_golem.name=Witch Golem Spawn Egg
+
 item.spawn_egg.entity.tcs_vlg:tcs_villager_v2.name=Villager Spawn Egg
 
-# Entity Names
 entity.tcs_vlg:irongolem_cherry_grove.name=Cherry Grove Iron Golem
 entity.tcs_vlg:irongolem_end.name=Ended Iron Golem
 entity.tcs_vlg:irongolem_fishing.name=Fishing Iron Golem
@@ -25,4 +28,10 @@ entity.tcs_vlg:irongolem_mining.name=Mining Iron Golem
 entity.tcs_vlg:irongolem_mooshroom.name=Mooshroom Iron Golem
 entity.tcs_vlg:irongolem_ocean.name=Ocean Iron Golem
 entity.tcs_vlg:irongolem_swamp.name=Swamp Iron Golem
+
 entity.tcs_vlg:tcs_villager_v2.name=Villager
+
+entity.tcs_vlg:pillager_golem.name=Pillager Golem
+entity.tcs_vlg:skeleton_golem.name=Skeleton Golem
+entity.tcs_vlg:zombie_golem.name=Zombie Golem
+entity.tcs_vlg:witch_golem.name=Witch Golem

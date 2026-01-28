@@ -1,0 +1,80 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "tcs_vlg:pillager_golem_aura",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/tcs/vlg/particle/particles"
+			}
+		},
+		"curves": {
+			"variable.p": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0.16, 0.07, 0]
+			},
+			"variable.pulse": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [6, -6, 6, -6, 6]
+			}
+		},
+		"events": {
+			"inhale": {
+				"particle_effect": {
+					"effect": "tcs_dea:ice_charge",
+					"type": "particle_with_velocity",
+					"pre_effect_expression": "variable.particle_age;"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_local_space": {
+				"position": true,
+				"rotation": true
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 100
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_sphere": {
+				"offset": [0, 2, 0],
+				"radius": "(1+ Math.floor(v.particle_random_3*2) * 1.3 )",
+				"surface_only": true,
+				"direction": "outwards"
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.9
+			},
+			"minecraft:particle_expire_if_not_in_blocks": ["minecraft:air", ""],
+			"minecraft:particle_initial_speed": 20,
+			"minecraft:particle_motion_dynamic": {
+				"linear_drag_coefficient": 8
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["v.p * v.particle_random_2", "v.p * v.particle_random_2"],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"flipbook": {
+						"base_UV": [0, 3],
+						"size_UV": [1, 1],
+						"step_UV": [1, 0],
+						"frames_per_second": 15,
+						"max_frame": 2,
+						"stretch_to_lifetime": true
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": [1, 1, 1, 1]
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.zombie_golem.root": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [ "idle" ],
+          "transitions": [
+            { "walk": "query.modified_move_speed > 0.05 && query.mark_variant == 0" },
+            { "attack": "query.is_delayed_attacking && query.mark_variant == 0" },
+            { "special_attack": "query.mark_variant == 1" },
+            { "death": "query.mark_variant == 2" }
+          ]
+        },
+        "walk": {
+          "animations": [ "walk" ],
+          "transitions": [
+            { "idle": "query.modified_move_speed <= 0.05 && query.mark_variant == 0" },
+            { "attack": "query.is_delayed_attacking && query.mark_variant == 0" },
+            { "special_attack": "query.mark_variant == 1" },
+            { "death": "query.mark_variant == 2" }
+          ]
+        },
+        "attack": {
+          "animations": [ "attack" ],
+          "transitions": [
+            { "idle": "variable.attack_time <= 0.0 && query.modified_move_speed <= 0.05 && query.mark_variant == 0 && q.all_animations_finished" },
+            { "walk": "variable.attack_time <= 0.0 && query.modified_move_speed > 0.0 && query.mark_variant == 0 && q.all_animations_finished" },
+            { "special_attack": "query.mark_variant == 1" },
+            { "death": "query.mark_variant == 2" }
+          ],
+          "on_entry": [ "variable.attack_time = 1.0;" ]
+        },
+        "special_attack": {
+          "animations": [ "special_attack" ],
+          "transitions": [
+              { "idle": "query.mark_variant == 0" }
+          ],
+          "on_entry": [ "variable.attack_time = 1.0;" ]
+        },
+        "death": {
+          "animations": [ "death" ]
+        }
+      }
+    }
+  }
+}

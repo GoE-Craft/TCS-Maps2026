@@ -4,7 +4,7 @@
     "description": {
       "identifier": "tcs_vlg:celebration_fx",
       "materials": { "default": "entity", "alpha": "entity_alphatest" },
-      "textures": { "default": "textures/tcs/tad/entity/empty" },
+      "textures": { "default": "textures/tcs/vlg/entity/empty" },
       "render_controllers": ["controller.render.default"],
       "geometry": { "default": "geometry.tcs_vlg.empty" },
       "particle_effects": {

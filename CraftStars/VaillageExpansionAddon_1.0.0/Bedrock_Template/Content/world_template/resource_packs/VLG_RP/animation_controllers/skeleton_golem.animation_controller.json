@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.tcs_vlg.skeleton_golem.root": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": ["idle"],
+          "blend_transition": 0.2,
+          "transitions": [
+            { "walk": "query.modified_move_speed > 0.1" },
+            { "attack": "query.is_delayed_attacking" }
+          ]
+        },
+        "walk": {
+          "animations": ["walk"],
+          "blend_transition": 0.2,
+          "transitions": [
+            { "default": "query.modified_move_speed <= 0.1" },
+            { "attack": "query.is_delayed_attacking" }
+          ]
+        },
+        "attack": {
+          "animations": ["attack"],
+          "blend_transition": 0.2,
+          "transitions": [{ "default": "query.all_animations_finished" }]
+        }
+      }
+    }
+  }
+}

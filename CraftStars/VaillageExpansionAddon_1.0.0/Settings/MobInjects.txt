@@ -34,6 +34,18 @@ type=irongolem_ocean
 !swamp_golem
 type=irongolem_swamp
 
+!skeleton_golem
+type=skeleton_golem
+
+!zombie_golem
+type=zombie_golem
+
+!witch_golem
+type=witch_golem
+
+!pillager_golem
+type=pillager_golem
+
 !cherry_villager
 type=tcs_villager_v2
 MarkVariant=1

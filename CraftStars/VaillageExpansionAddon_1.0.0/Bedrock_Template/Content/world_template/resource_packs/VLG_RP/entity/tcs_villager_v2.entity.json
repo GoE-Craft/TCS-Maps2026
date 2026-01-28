@@ -43,7 +43,7 @@
         "level_diamond": "textures/entity/villager2/levels/level_diamond"
       },
       "geometry": {
-        "default": "geometry.villager_v2"
+        "default": "geometry.tcs_vlg.tcs_villager_v2"
       },
       "scripts": {
         "scale": "0.9375",

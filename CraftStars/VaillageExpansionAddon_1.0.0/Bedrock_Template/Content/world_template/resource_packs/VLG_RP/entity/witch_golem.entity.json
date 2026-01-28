@@ -1,0 +1,40 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "tcs_vlg:witch_golem",
+        "materials": {
+          "default": "spider",
+          "glow": "entity_beam_additive"
+        },
+        "textures": {
+          "default": "textures/tcs/vlg/entity/evil_golem/witch_golem"
+        },
+        "geometry": {
+          "default": "geometry.tcs_vlg.witch_golem"
+        },
+        "particle_effects": {
+          "shoot": "tcs_vlg:witch_golem_shoot",
+          "dust_particles": "tcs_vlg:dust_particles"
+        },
+        "animations": {
+          "idle": "animation.tcs_vlg.witch_golem.idle",
+          "walk": "animation.tcs_vlg.witch_golem.walk",
+          "attack": "animation.tcs_vlg.witch_golem.attack",
+          "special_attack": "animation.tcs_vlg.witch_golem.special_attack",
+          "root": "controller.animation.tcs_vlg.witch_golem.root",
+          "attack_controller": "controller.animation.tcs_vlg.witch_golem.attack"
+        },
+        "scripts": {
+          "animate": ["root", "attack_controller"]
+        },
+        "spawn_egg": {
+          "texture": "tcs_vlg:spawn_egg_witch_golem"
+        },
+        "render_controllers": [
+          "controller.render.tcs_vlg.witch_golem"
+        ]
+      }
+    }
+}
+  

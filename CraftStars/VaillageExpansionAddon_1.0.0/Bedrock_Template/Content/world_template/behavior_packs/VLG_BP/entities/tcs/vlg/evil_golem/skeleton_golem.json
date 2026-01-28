@@ -1,0 +1,324 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "tcs_vlg:skeleton_golem",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "tcs_vlg:special_attack_count": {
+          "type": "int",
+          "default": 0,
+          "range": [0, 4]
+        },
+        "tcs_vlg:delayed_death_triggered": {
+          "type": "bool",
+          "default": false
+        }
+      },
+      "animations": {
+        "attack.special": "animation.tcs_vlg.skeleton_golem.attack.special",
+        "controller.attack": "controller.animation.tcs_vlg.skeleton_golem.attack"
+      },
+      "scripts": {
+        "animate": ["controller.attack"]
+      }
+    },
+
+    "component_groups": {
+      "tcs_vlg:challenge": {
+        "minecraft:home": { "restriction_radius": 8 },
+        "minecraft:behavior.move_towards_home_restriction": {
+          "priority": 4,
+          "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.go_home": {
+          "goal_radius": 1,
+          "interval": 20,
+          "priority": 4,
+          "calculate_new_path_radius": 2,
+          "speed_multiplier": 1.0
+        }
+      },
+
+      "tcs_vlg:wander_around": {
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "speed_multiplier": 0.8
+        }
+      },
+      "tcs_vlg:prepare_for_death": {
+        "minecraft:mark_variant": { "value": 2 },
+        "minecraft:collision_box": {
+          "height": 0,
+          "width": 0
+        },
+        "minecraft:timer": {
+          "time": 2.0,
+          "looping": false,
+          "time_down_event": {
+            "event": "tcs_vlg:despawn",
+            "target": "self"
+          }
+        }
+      },
+      "tcs_vlg:despawn": { "minecraft:instant_despawn": {} },
+      "tcs_vlg:normal_attack": {
+        "minecraft:mark_variant": { "value": 0 },
+        "minecraft:navigation.walk": {
+          "can_path_over_water": false,
+          "avoid_water": true,
+          "avoid_damage_blocks": true
+        },
+        "minecraft:movement": { "value": 0.25 },
+        "minecraft:movement.basic": {},
+
+        "minecraft:behavior.move_towards_target": {
+          "priority": 2,
+          "speed_multiplier": 0.9,
+          "within_radius": 32
+        },
+        "minecraft:attack": { "damage": 8 },
+        "minecraft:behavior.delayed_attack": {
+          "priority": 1,
+          "attack_duration": 1.55,
+          "cooldown_time": 0,
+          "attack_once": false,
+          "hit_delay_pct": 0.45,
+          "random_stop_interval": 0,
+          "reach_multiplier": 3,
+          "require_complete_path": false,
+          "track_target": true,
+          "melee_fov": 90
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "must_reach": true,
+          "must_see": true,
+          "reselect_targets": true,
+
+          "entity_types": [
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  }
+                ]
+              },
+              "within_default": 32
+            }
+          ]
+        },
+        "minecraft:collision_box": {
+          "width": 2,
+          "height": 4
+        }
+      },
+      "tcs_vlg:special_attack": {
+        "minecraft:mark_variant": { "value": 1 },
+        "minecraft:behavior.delayed_attack": {
+          "priority": 1,
+          "attack_duration": 5.1,
+          "attack_once": false,
+          "min_path_time": 0.01,
+          "cooldown_time": 0,
+          "hit_delay_pct": 1,
+          "random_stop_interval": 0,
+          "reach_multiplier": 3,
+          "require_complete_path": false,
+          "track_target": true,
+          "melee_fov": 90,
+          "speed_multiplier": 1.0
+        },
+        "minecraft:collision_box": {
+          "height": 0,
+          "width": 0
+        },
+        "minecraft:timer": {
+          "time": 5.1,
+          "looping": false,
+          "time_down_event": {
+            "event": "tcs_vlg:switch_to_normal_attack",
+            "target": "self"
+          }
+        }
+      },
+      "tcs_vlg:delayed_death": {
+        "minecraft:timer": {
+          "time": 1,
+          "looping": false,
+          "time_down_event": {
+            "event": "tcs_vlg:trigger_death",
+            "target": "self"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:mark_variant": { "value": 0 },
+      "minecraft:scale": { "value": 0.8 },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:type_family": {
+        "family": ["skeleton_golem", "mob"]
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 30 : 0"
+      },
+      "minecraft:collision_box": {
+        "width": 2,
+        "height": 4
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/skeleton_golem.json"
+      },
+      "minecraft:health": {
+        "value": 103,
+        "max": 103,
+        "min": 1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.look_at_target": {
+        "priority": 2,
+        "look_distance": 8,
+        "probability": 0.02,
+        "angle_of_view_vertical": 360,
+        "angle_of_view_horizontal": 360
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 2,
+        "entity_types": {
+          "filters": {
+            "test": "is_family",
+            "subject": "other",
+            "operator": "!=",
+            "value": "creeper"
+          }
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": true,
+            "on_damage": { "event": "tcs_vlg:on_hurt" }
+          },
+          {
+            "on_damage": {
+              "filters": { "test": "actor_health", "operator": "<", "value": 2, "subject": "self"  },
+              "event": "tcs_vlg:trigger_death"
+            }
+          }
+        ]
+      },
+      "minecraft:persistent": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:follow_range": { "value": 48 },
+      "minecraft:knockback_resistance": { "value": 1, "max": 1 },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "tcs_vlg:normal_attack",
+            "tcs_vlg:wander_around"
+          ]
+        }
+      },
+      "tcs_vlg:challenge": {
+        "remove": { "component_groups": ["tcs_vlg:wander_around"] },
+        "add": {
+          "component_groups": ["tcs_vlg:challenge", "tcs_vlg:normal_attack"]
+        }
+      },
+
+      "tcs_vlg:on_hurt": {
+        "sequence": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "all_of": [
+                    { "test": "actor_health", "operator": "<", "value": 60 },
+                    { "test": "int_property", "domain": "tcs_vlg:special_attack_count", "operator": "<", "value": 1 },
+                    { "test": "actor_health", "operator": ">=", "value": 2 } 
+                  ]
+                },
+                {
+                  "all_of": [
+                    { "test": "actor_health", "operator": "<", "value": 30 },
+                    { "test": "int_property", "domain": "tcs_vlg:special_attack_count", "operator": "<", "value": 2 },
+                    { "test": "actor_health", "operator": ">=", "value": 2 } 
+                  ]
+                }
+              ]
+            },
+            "set_property": {
+              "tcs_vlg:special_attack_count": "q.property('tcs_vlg:special_attack_count') + 1"
+            },
+            "trigger": "tcs_vlg:switch_to_special_attack"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "actor_health", "operator": "<", "value": 2 }
+              ]
+            },
+            "trigger": "tcs_vlg:trigger_death"
+          }
+        ]
+      },
+      "tcs_vlg:switch_to_normal_attack": {
+        "remove": { "component_groups": ["tcs_vlg:special_attack"] },
+        "add": { "component_groups": ["tcs_vlg:normal_attack"] }
+      },
+      "tcs_vlg:switch_to_special_attack": {
+        "remove": { "component_groups": ["tcs_vlg:normal_attack"] },
+        "add": { "component_groups": ["tcs_vlg:special_attack"] }
+      },
+      "tcs_vlg:trigger_death": {
+        "add": { "component_groups": ["tcs_vlg:prepare_for_death"] },
+        "set_property": { "tcs_vlg:delayed_death_triggered": true },
+        "remove": { "component_groups": ["tcs_vlg:normal_attack", "tcs_vlg:special_attack"] }
+      },
+      "tcs_vlg:despawn": { 
+        "add": { "component_groups": ["tcs_vlg:despawn"] } 
+      },
+      "tcs_vlg:trigger_delayed_death": {
+        "add": { "component_groups": ["tcs_vlg:delayed_death"] },
+        "remove": { "component_groups": ["tcs_vlg:normal_attack", "tcs_vlg:special_attack"] }
+      }
+    }
+  }
+}

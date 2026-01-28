@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tcs_vlg:zombie_golem",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/tcs/vlg/entity/evil_golem/zombie_golem"
+      },
+      "geometry": {
+        "default": "geometry.tcs_vlg.zombie_golem"
+      },
+      "animations": {
+        "idle": "animation.tcs_vlg.zombie_golem.idle",
+        "attack": "animation.tcs_vlg.zombie_golem.attack",
+        "special_attack": "animation.tcs_vlg.zombie_golem.special_attack",
+        "walk": "animation.tcs_vlg.zombie_golem.walk",
+        "death": "animation.tcs_vlg.zombie_golem.death",
+
+        "root": "controller.animation.zombie_golem.root"
+      },
+      "scripts": {
+        "animate": ["root"]
+      },
+      "render_controllers": ["controller.render.tcs_vlg.mobs"],
+      "spawn_egg": {
+        "texture": "tcs_vlg:spawn_egg_zombie_golem"
+      },
+      "sound_effects": {
+        "step": "tcs_vlg:zombie_golem_walk",
+        "special_attack": "tcs_vlg:zombie_golem_special_attack",
+        "death": "tcs_vlg:zombie_golem_death"
+      },
+      "particle_effects": {
+        "dust": "tcs_vlg:zombie_golem_dust",
+        "zombie_golem_dust": "tcs_vlg:zombie_golem_dust"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers" : {
+    "controller.animation.tcs_vlg.witch_golem.root" : {
+      "initial_state" : "default",
+      "states" : {
+        "default" : {
+          "animations" : [ "idle" ],
+          "blend_transition": 0.2,
+          "transitions" : [
+            { "try_walk" : "q.modified_move_speed > 0.2" },
+            { "special_attack" : "q.is_charged" }
+          ]
+        },
+        "try_walk" : {
+          "animations" : [ "idle" ],
+          "blend_transition": 0.2,
+          "transitions" : [
+            { "walk" : "q.modified_move_speed >= 0.2 && q.anim_time > 0.25" },
+            { "special_attack" : "q.is_charged" }
+          ]
+        },
+        "walk" : {
+          "animations" : [ "walk" ],
+          "blend_transition": 0.2,
+          "transitions" : [
+            { "default" : "q.modified_move_speed <= 0.1" },
+            { "special_attack" : "q.is_charged" }
+          ]
+        },
+        "special_attack" : {
+          "animations" : [ "special_attack" ],
+          "transitions" : [
+            { "default" : "q.all_animations_finished" }
+          ]
+        }
+      }
+    },
+    "controller.animation.tcs_vlg.witch_golem.attack" : {
+      "initial_state" : "default",
+      "states" : {
+        "default" : {
+          "transitions" : [
+            { "attack" : "v.attack_time > 0" }
+          ]
+        },
+        "attack" : {
+          "animations" : [ "attack" ],
+          "transitions" : [
+            { "default" : "q.all_animations_finished" }
+          ]
+        }
+      }
+    }
+  }
+}

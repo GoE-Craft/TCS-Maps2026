@@ -1,0 +1,83 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "tcs_vlg:celebration_confetti",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/tcs/vlg/particles/confetti"
+			}
+		},
+		"curves": {
+			"variable.grow": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0.5, 2, 0]
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "v.size_over_life = 1;v.random_location_x = math.random(-1, 1) * 4;v.random_location_z = math.random(-1, 1) * 4;"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 20
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1.21
+			},
+			"minecraft:emitter_shape_sphere": {
+				"radius": 0.3,
+				"direction": "outwards"
+			},
+			"minecraft:particle_initialization": {
+				"per_update_expression": "v.size_over_life = 1 - (v.particle_age / v.particle_lifetime);"
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 1.2
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": 90
+			},
+			"minecraft:particle_initial_speed": "math.random(5,15)",
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": ["math.sin(v.particle_age * 90)", -10, "math.cos(v.particle_age * 40)"],
+				"linear_drag_coefficient": 3
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["(0.5 * v.size_over_life) * v.particle_random_4", "((0.25 * v.size_over_life) * v.grow) * v.particle_random_1"],
+				"facing_camera_mode": "lookat_direction",
+				"uv": {
+					"texture_width": 32,
+					"texture_height": 32,
+					"flipbook": {
+						"base_UV": ["math.floor(v.particle_random_1*2)*16", 0],
+						"size_UV": [16, 16],
+						"step_UV": [0, 16],
+						"frames_per_second": 20,
+						"max_frame": 2,
+						"loop": true
+					}
+				}
+			},
+			"minecraft:particle_motion_collision": {
+				"collision_drag": 10,
+				"collision_radius": 0.2
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.emitter_random_1 * v.particle_random_2",
+					"gradient": {
+						"0.0": "#FFFF0000",
+						"0.12": "#FFFF7300",
+						"0.29": "#FFFFFD00",
+						"0.45": "#FF16FF00",
+						"0.65": "#FF00CCFF",
+						"0.8": "#FF001EFF",
+						"1.0": "#FF9000FF"
+					}
+				}
+			}
+		}
+	}
+}

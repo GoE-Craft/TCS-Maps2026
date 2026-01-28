@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tcs_vlg:pillager_golem",
+      "materials": {
+        "default": "spider"
+      },
+      "textures": {
+        "default": "textures/tcs/vlg/entity/evil_golem/pillager_golem"
+      },
+      "geometry": {
+        "default": "geometry.tcs_vlg.pillager_golem"
+      },
+      "animations": {
+        "idle": "animation.tcs_vlg.pillager_golem.idle",
+        "attack": "animation.tcs_vlg.pillager_golem.attack",
+        "walk": "animation.tcs_vlg.pillager_golem.walk",
+        "particles": "animation.tcs_vlg.pillager_golem.particle",
+        "special_attack": "animation.tcs_vlg.pillager_golem.special_attack",
+        "death": "animation.tcs_vlg.pillager_golem.death",
+
+        "root": "controller.animation.pillager_golem.root"
+      },
+      "scripts": {
+        "animate": ["root", "particles"]
+      },
+      "render_controllers": ["controller.render.tcs_vlg.mobs"],
+      "sound_effects": {
+        "step": "tcs_vlg:pillager_golem_walk",
+        "special_attack": "tcs_vlg:pillager_golem_special_attack",
+        "death": "tcs_vlg:pillager_golem_death"
+      },
+      "particle_effects": {
+        "dust": "tcs_vlg:pillager_golem_floor",
+        "walk": "tcs_vlg:pillager_golem_floor",
+        "fire_sword": "tcs_vlg:pillager_golem_sword",
+        "aura": "tcs_vlg:pillager_golem_aura",
+        "knockback": "tcs_vlg:pillager_golem_knockback",
+        "lava": "tcs_vlg:pillager_golem_lava"
+      },
+      "spawn_egg": {
+        "texture": "tcs_vlg:spawn_egg_pillager_golem"
+      }
+    }
+  }
+}
