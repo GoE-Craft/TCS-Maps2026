@@ -101,7 +101,7 @@
       },
       "geometry": "Array.geos[q.property('tcs_vlg:item')]",
       "materials": [
-        { "*": "(query.is_baby || variable.variant == 0) ? Material.default : Material.masked" }
+        { "*": "Material.default" }
       ],
       "textures": [
         "Array.accessories[q.property('tcs_vlg:item')]"

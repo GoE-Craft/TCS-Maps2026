@@ -5,7 +5,7 @@
 			"identifier": "tcs_vlg:pillager_golem_aura",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/tcs/vlg/particle/particles"
+				"texture": "textures/tcs/vlg/particles/particles"
 			}
 		},
 		"curves": {
@@ -63,17 +63,17 @@
 					"texture_width": 16,
 					"texture_height": 16,
 					"flipbook": {
-						"base_UV": [0, 3],
+						"base_UV": [0, 0],
 						"size_UV": [1, 1],
 						"step_UV": [1, 0],
 						"frames_per_second": 15,
-						"max_frame": 2,
+						"max_frame": 3,
 						"stretch_to_lifetime": true
 					}
 				}
 			},
 			"minecraft:particle_appearance_tinting": {
-				"color": [1, 1, 1, 1]
+				"color": [0.14902, 0.14902, 0.14902, 1]
 			}
 		}
 	}

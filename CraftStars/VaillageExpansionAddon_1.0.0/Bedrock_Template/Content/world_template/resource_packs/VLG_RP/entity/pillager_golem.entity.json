@@ -32,7 +32,6 @@
         "death": "tcs_vlg:pillager_golem_death"
       },
       "particle_effects": {
-        "dust": "tcs_vlg:pillager_golem_floor",
         "walk": "tcs_vlg:pillager_golem_floor",
         "fire_sword": "tcs_vlg:pillager_golem_sword",
         "aura": "tcs_vlg:pillager_golem_aura",

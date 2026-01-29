@@ -27,10 +27,10 @@
 				"max_lifetime": 2
 			},
 			"minecraft:particle_initial_spin": {
-				"rotation": -90
+				"rotation": -90,
+				"rotation_rate": -720
 			},
 			"minecraft:particle_initial_speed": 0.1,
-			"minecraft:particle_motion_dynamic": {},
 			"minecraft:particle_appearance_billboard": {
 				"size": [2.5, 2.5],
 				"facing_camera_mode": "emitter_transform_xz",

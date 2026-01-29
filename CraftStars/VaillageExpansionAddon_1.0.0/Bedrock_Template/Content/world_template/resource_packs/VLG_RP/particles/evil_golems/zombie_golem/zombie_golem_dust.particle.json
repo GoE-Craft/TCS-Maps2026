@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "tcs_vlg:zombie_golem_dust",
 			"basic_render_parameters": {
-				"material": "particles_add",
+				"material": "particles_blend",
 				"texture": "textures/tcs/vlg/particles/dust"
 			}
 		},
@@ -71,8 +71,8 @@
 				"color": {
 					"interpolant": "v.particle_age / v.particle_lifetime",
 					"gradient": {
-						"0.0": "#FFD4CABE",
-						"1.0": "#FF9A9A9A"
+						"0.0": "#9CD4CABE",
+						"1.0": "#599A9A9A"
 					}
 				}
 			}

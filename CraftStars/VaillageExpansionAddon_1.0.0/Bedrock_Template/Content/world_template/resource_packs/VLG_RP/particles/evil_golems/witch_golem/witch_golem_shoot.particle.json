@@ -27,7 +27,7 @@
 				"linear_drag_coefficient": 0.1
 			},
 			"minecraft:particle_appearance_billboard": {
-				"size": [0.15, 0.15],
+				"size": ["0.2* v.particle_random_1", "0.2 * v.particle_random_1"],
 				"facing_camera_mode": "rotate_xyz",
 				"uv": {
 					"texture_width": 16,
@@ -45,10 +45,10 @@
 			},
 			"minecraft:particle_appearance_tinting": {
 				"color": {
-					"interpolant": "v.particle_age / v.particle_lifetime",
+					"interpolant": "v.particle_age / v.emitter_random_1",
 					"gradient": {
-						"0.0": "#FFF4F4F4",
-						"1.0": "#BF464646"
+						"0.0": "#FFC61FE3",
+						"1.0": "#9C7C00FF"
 					}
 				}
 			}
