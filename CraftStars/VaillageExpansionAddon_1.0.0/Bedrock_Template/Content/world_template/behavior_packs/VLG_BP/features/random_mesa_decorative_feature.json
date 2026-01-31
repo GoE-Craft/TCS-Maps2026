@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_mesa_decorative_feature"
+    },
+    "features": [
+      [ "tcs_vlg:mesa_warehouse_feature", 1 ],
+      [ "tcs_vlg:mesa_gazebo_feature", 1 ],
+      [ "tcs_vlg:mesa_decoration1_feature", 1 ],
+      [ "tcs_vlg:mesa_decoration2_feature", 1 ]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_generic_decorative_feature"
+    },
+    "features": [
+      [ "tcs_vlg:generic_picnic_feature", 1 ],
+      [ "tcs_vlg:generic_campsite_feature", 1 ],
+      [ "tcs_vlg:generic_trader_cart_feature", 1 ],
+      [ "tcs_vlg:generic_practice_range_feature", 1 ],
+      [ "tcs_vlg:generic_fountain1_feature", 1 ],
+      [ "tcs_vlg:generic_fountain2_feature", 1 ],
+      [ "tcs_vlg:generic_fountain3_feature", 1 ]
+
+    ]
+  }
+}

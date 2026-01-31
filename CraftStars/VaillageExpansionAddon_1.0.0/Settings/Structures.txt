@@ -9,6 +9,14 @@
 type=items
 item=tcs_vlg:book 0 1
 
+#empty9
+type=area
+location=1 170 1 9 172 9
+
+#empty12
+type=area
+location=1 160 1 12 162 12
+
 #empty25
 type=area
 location=1 150 1 25 152 25
@@ -17,6 +25,9 @@ location=1 150 1 25 152 25
 type=area
 location=101 100 0 132 105 31
 replace=gray_stained_glass structure_void
+
+
+///////////// Mesa Builds
 
 #mesa_house1
 type=area
@@ -65,56 +76,297 @@ replace=gray_stained_glass structure_void
 
 #mesa_smithy
 type=area
-location=201 101 41 214 112 54
+location=201 101 41 214 113 54
 replace=gray_stained_glass structure_void
 
 #mesa_workshop
 type=area
-location=221 101 41 234 113 54
+location=221 101 41 234 111 54
 replace=gray_stained_glass structure_void
 
 #mesa_butchery
 type=area
-location=241 101 41 254 114 54
+location=241 101 41 254 113 54
 replace=gray_stained_glass structure_void
 
 #mesa_warehouse
 type=area
-location=261 101 41 274 111 54
+location=261 101 41 274 110 54
 replace=gray_stained_glass structure_void
 
-#mesa_iron_golem_station
+#mesa_golem_station
 type=area
-location=281 101 41 289 107 49
+location=281 101 41 289 106 49
 replace=gray_stained_glass structure_void
 
 #mesa_water_source
 type=area
-location=301 101 41 309 108 49
+location=301 101 41 309 107 49
 replace=gray_stained_glass structure_void
 
 #mesa_gazebo
 type=area
-location=321 101 41 329 110 49
+location=321 101 41 329 109 49
 replace=gray_stained_glass structure_void
 
 #mesa_decoration1
 type=area
-location=341 101 41 349 131 49
+location=341 101 41 349 130 49
 replace=gray_stained_glass structure_void
 
 #mesa_decoration2
 type=area
-location=361 101 41 369 113 49
+location=361 101 41 369 110 49
 replace=gray_stained_glass structure_void
 
 #mesa_light_source1
 type=area
-location=381 101 41 387 107 47
+location=381 101 41 387 106 47
 replace=gray_stained_glass structure_void
 
 #mesa_light_source2
 type=area
-location=401 101 41 407 408 47
+location=401 101 41 407 107 47
 replace=gray_stained_glass structure_void
 
+#mesa_light_source3
+type=area
+location=421 101 41 427 107 47
+replace=gray_stained_glass structure_void
+
+#mesa_light_source4
+type=area
+location=441 101 41 447 107 47
+replace=gray_stained_glass structure_void
+
+///////////// Mooshroom Builds
+
+
+///////////// Cherry Grove Builds
+
+///////////// Swamp Builds
+
+///////////// Generic Builds
+
+#generic_crop1
+type=area
+location=21 101 181 31 104 191
+replace=gray_stained_glass structure_void
+
+#generic_crop2
+type=area
+location=41 101 181 51 107 191
+replace=gray_stained_glass structure_void
+
+#generic_crop3
+type=area
+location=61 101 181 71 104 191
+replace=gray_stained_glass structure_void
+
+#generic_crop4
+type=area
+location=81 101 181 91 106 191
+replace=gray_stained_glass structure_void
+
+#generic_crop5
+type=area
+location=101 101 181 111 104 191
+replace=gray_stained_glass structure_void
+
+#generic_crop6
+type=area
+location=121 101 181 131 107 191
+replace=gray_stained_glass structure_void
+
+#generic_crop7
+type=area
+location=141 101 181 151 105 191
+replace=gray_stained_glass structure_void
+
+#generic_stable
+type=area
+location=161 101 181 171 107 191
+replace=gray_stained_glass structure_void
+
+#generic_stable_mesa
+type=area
+location=181 101 181 191 107 191
+replace=gray_stained_glass structure_void
+
+#generic_cow_shed
+type=area
+location=201 101 181 211 109 191
+replace=gray_stained_glass structure_void
+
+#generic_mooshroom_shed
+type=area
+location=221 101 181 231 112 191
+replace=gray_stained_glass structure_void
+
+#generic_pigsty
+type=area
+location=241 101 181 251 106 191
+replace=gray_stained_glass structure_void
+
+#generic_sheep_pen
+type=area
+location=261 101 181 271 106 191
+replace=gray_stained_glass structure_void
+
+#generic_chicken_coop
+type=area
+location=281 101 181 291 108 191
+replace=gray_stained_glass structure_void
+
+#generic_petting_zoo
+type=area
+location=301 101 181 311 106 191
+replace=gray_stained_glass structure_void
+
+#generic_fishing_pond
+type=area
+location=321 101 181 331 104 191
+replace=gray_stained_glass structure_void
+
+#generic_aquarium1
+type=area
+location=341 101 181 351 109 191
+replace=gray_stained_glass structure_void
+
+#generic_aquarium2
+type=area
+location=361 101 181 371 108 191
+replace=gray_stained_glass structure_void
+
+#generic_aquarium3
+type=area
+location=381 101 181 391 110 191
+replace=gray_stained_glass structure_void
+
+#generic_ocelot_cage
+type=area
+location=401 101 181 411 107 191
+replace=gray_stained_glass structure_void
+
+#generic_parrot_cage
+type=area
+location=421 101 181 431 110 191
+replace=gray_stained_glass structure_void
+
+#generic_bee_hive
+type=area
+location=441 101 181 451 109 191
+replace=gray_stained_glass structure_void
+
+
+///////////// Generic Builds
+
+#generic_market1
+type=area
+location=21 101 201 31 107 211
+replace=gray_stained_glass structure_void
+
+#generic_market2
+type=area
+location=41 101 201 51 108 211
+replace=gray_stained_glass structure_void
+
+#generic_market3
+type=area
+location=61 101 201 71 106 211
+replace=gray_stained_glass structure_void
+
+#generic_market4
+type=area
+location=81 101 201 91 111 211
+replace=gray_stained_glass structure_void
+
+#generic_market5
+type=area
+location=101 101 201 111 107 211
+replace=gray_stained_glass structure_void
+
+#generic_statue1
+type=area
+location=121 101 201 129 111 209
+replace=gray_stained_glass structure_void
+
+#generic_statue2
+type=area
+location=141 101 201 149 108 209
+replace=gray_stained_glass structure_void
+
+#generic_statue3
+type=area
+location=161 101 201 169 110 209
+replace=gray_stained_glass structure_void
+
+#generic_statue4
+type=area
+location=181 101 201 189 121 209
+replace=gray_stained_glass structure_void
+
+#generic_statue5
+type=area
+location=201 101 201 209 113 209
+replace=gray_stained_glass structure_void
+
+#generic_statue6
+type=area
+location=221 101 201 229 113 209
+replace=gray_stained_glass structure_void
+
+#generic_statue7
+type=area
+location=241 101 201 249 108 209
+replace=gray_stained_glass structure_void
+
+#generic_statue8
+type=area
+location=261 101 201 269 121 209
+replace=gray_stained_glass structure_void
+
+#generic_statue9
+type=area
+location=281 101 201 289 110 209
+replace=gray_stained_glass structure_void
+
+#generic_statue10
+type=area
+location=301 101 201 309 107 209
+replace=gray_stained_glass structure_void
+
+#generic_picnic
+type=area
+location=321 101 201 331 107 211
+replace=gray_stained_glass structure_void
+
+#generic_fountain1
+type=area
+location=341 101 201 351 115 211
+replace=gray_stained_glass structure_void
+
+#generic_fountain2
+type=area
+location=361 101 201 371 109 211
+replace=gray_stained_glass structure_void
+
+#generic_fountain3
+type=area
+location=381 101 201 391 108 211
+replace=gray_stained_glass structure_void
+
+#generic_campsite
+type=area
+location=401 101 201 411 106 211
+replace=gray_stained_glass structure_void
+
+#generic_trader_cart
+type=area
+location=421 101 201 431 104 211
+replace=gray_stained_glass structure_void
+
+#generic_practice_range
+type=area
+location=441 101 201 451 104 211
+replace=gray_stained_glass structure_void

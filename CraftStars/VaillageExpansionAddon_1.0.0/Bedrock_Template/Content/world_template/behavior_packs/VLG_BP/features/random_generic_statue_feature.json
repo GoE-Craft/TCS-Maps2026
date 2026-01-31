@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_generic_statue_feature"
+    },
+    "features": [
+      [ "tcs_vlg:generic_statue1_feature", 1 ],
+      [ "tcs_vlg:generic_statue2_feature", 1 ],
+      [ "tcs_vlg:generic_statue3_feature", 1 ],
+      [ "tcs_vlg:generic_statue4_feature", 1 ],
+      [ "tcs_vlg:generic_statue5_feature", 1 ],
+      [ "tcs_vlg:generic_statue6_feature", 1 ],
+      [ "tcs_vlg:generic_statue7_feature", 1 ],
+      [ "tcs_vlg:generic_statue8_feature", 1 ],
+      [ "tcs_vlg:generic_statue9_feature", 1 ],
+      [ "tcs_vlg:generic_statue10_feature", 1 ]
+    ]
+  }
+}

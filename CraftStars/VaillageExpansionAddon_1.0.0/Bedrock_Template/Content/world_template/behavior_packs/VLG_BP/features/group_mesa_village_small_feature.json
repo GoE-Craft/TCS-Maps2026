@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "tcs_vlg:group_mesa_village_small_feature"
+    },
+    "features": [
+      "tcs_vlg:mesa_golem_station_feature",
+      "tcs_vlg:random_mesa_house_feature",
+      "tcs_vlg:random_mesa_house_feature",
+      "tcs_vlg:random_mesa_house_feature",
+      "tcs_vlg:random_mesa_profession_feature",
+      "tcs_vlg:random_mesa_profession_feature",
+      "tcs_vlg:mesa_water_source_feature",
+      "tcs_vlg:random_mesa_decorative_feature",
+      "tcs_vlg:random_generic_crops_feature",
+      "tcs_vlg:random_generic_crops_feature",
+      "tcs_vlg:random_generic_animal_feature",
+      "tcs_vlg:random_generic_animal_feature",
+      "tcs_vlg:random_generic_market_feature",
+      "tcs_vlg:random_generic_decorative_feature",
+      "tcs_vlg:random_mesa_light_source_feature",
+      "tcs_vlg:random_mesa_light_source_feature"
+    ]
+  }
+}

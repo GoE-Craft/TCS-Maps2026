@@ -1,0 +1,16 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_mesa_house_feature"
+    },
+    "features": [
+      [ "tcs_vlg:mesa_house1_feature", 1 ],
+      [ "tcs_vlg:mesa_house2_feature", 1 ],
+      [ "tcs_vlg:mesa_house3_feature", 1 ],
+      [ "tcs_vlg:mesa_house4_feature", 1 ],
+      [ "tcs_vlg:mesa_house5_feature", 1 ],
+      [ "tcs_vlg:mesa_house6_feature", 1 ]
+    ]
+  }
+}

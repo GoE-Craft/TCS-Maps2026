@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_generic_animal_feature"
+    },
+    "features": [
+      [ "tcs_vlg:generic_stable_feature", 1 ],
+      [ "tcs_vlg:generic_stable_mesa_feature", 1 ],
+      [ "tcs_vlg:generic_cow_shed_feature", 1 ],
+      [ "tcs_vlg:generic_mooshroom_shed_feature", 1 ],
+      [ "tcs_vlg:generic_sheep_pen_feature", 1 ],
+      [ "tcs_vlg:generic_pigsty_feature", 1 ],
+      [ "tcs_vlg:generic_chicken_coop_feature", 1 ],
+      [ "tcs_vlg:generic_ocelot_cage_feature", 1 ],
+      [ "tcs_vlg:generic_parrot_cage_feature", 1 ],
+      [ "tcs_vlg:generic_petting_zoo_feature", 1 ],
+      [ "tcs_vlg:generic_aquarium1_feature", 1 ],
+      [ "tcs_vlg:generic_aquarium2_feature", 1 ],
+      [ "tcs_vlg:generic_aquarium3_feature", 1 ],
+      [ "tcs_vlg:generic_fishing_pond_feature", 1 ],
+      [ "tcs_vlg:generic_bee_hive_feature", 1 ]
+
+    ]
+  }
+}

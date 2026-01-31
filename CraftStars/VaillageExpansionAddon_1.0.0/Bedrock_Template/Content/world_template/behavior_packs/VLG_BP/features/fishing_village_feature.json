@@ -1,0 +1,31 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "tcs_vlg:fishing_village_feature"
+    },
+    "structure_name": "tcs_vlg:fishing_village",
+    "adjustment_radius": 16,
+    "facing_direction": "south",
+    "constraints": {
+	  "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:bubble_column",
+          "minecraft:water",
+          "minecraft:flowing_water",
+          "minecraft:sand",
+          "minecraft:dirt",
+          "minecraft:stone",
+          "minecraft:seagrass",
+          "minecraft:clay",
+          "minecraft:grass_block",
+          "minecraft:gravel",
+          "minecraft:cobblestone",
+          "minecraft:mossy_cobblestone",
+          "minecraft:kelp"
+        ]
+      }
+    }
+  }
+}

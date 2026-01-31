@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:biome_mesa_feature"
+    },
+    "features": [
+      [ "tcs_vlg:group_mesa_village_small_feature", 10 ],
+      //[ "tcs_vlg:group_mesa_village_big_feature", 10 ],
+      [ "tcs_vlg:empty25_feature", 30 ]
+    ]
+  }
+}

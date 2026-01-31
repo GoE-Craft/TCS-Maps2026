@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:biome_jungle_feature"
+    },
+    "features": [
+      [ "tcs_vlg:jungle_village_feature", 10 ],
+      [ "tcs_vlg:empty25_feature", 10 ]
+    ]
+  }
+}

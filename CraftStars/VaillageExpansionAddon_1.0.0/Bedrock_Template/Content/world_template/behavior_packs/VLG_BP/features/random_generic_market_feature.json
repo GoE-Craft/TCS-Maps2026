@@ -1,0 +1,15 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_generic_market_feature"
+    },
+    "features": [
+      [ "tcs_vlg:generic_market1_feature", 1 ],
+      [ "tcs_vlg:generic_market2_feature", 1 ],
+      [ "tcs_vlg:generic_market3_feature", 1 ],
+      [ "tcs_vlg:generic_market4_feature", 1 ],
+      [ "tcs_vlg:generic_market5_feature", 1 ]
+    ]
+  }
+}

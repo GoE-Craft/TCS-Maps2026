@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:biome_ocean_feature"
+    },
+    "features": [
+      [ "tcs_vlg:mesa_house1_feature", 1 ],
+      [ "tcs_vlg:mesa_house2_feature", 1 ],
+      [ "tcs_vlg:empty25_feature", 80 ]
+    ]
+  }
+}

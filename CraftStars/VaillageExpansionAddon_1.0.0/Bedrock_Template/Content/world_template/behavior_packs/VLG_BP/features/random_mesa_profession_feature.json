@@ -1,0 +1,16 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_mesa_profession_feature"
+    },
+    "features": [
+      [ "tcs_vlg:mesa_blacksmith_feature", 1 ],
+      [ "tcs_vlg:mesa_library_feature", 1 ],
+      [ "tcs_vlg:mesa_smithy_feature", 1 ],
+      [ "tcs_vlg:mesa_workshop_feature", 1 ],
+      [ "tcs_vlg:mesa_church_feature", 1 ],
+      [ "tcs_vlg:mesa_butchery_feature", 1 ]
+    ]
+  }
+}

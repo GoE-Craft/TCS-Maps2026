@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "tcs_vlg:random_mesa_light_source_feature"
+    },
+    "features": [
+      [ "tcs_vlg:mesa_light_source1_feature", 1 ],
+      [ "tcs_vlg:mesa_light_source2_feature", 1 ],
+      [ "tcs_vlg:mesa_light_source3_feature", 1 ],
+      [ "tcs_vlg:mesa_light_source4_feature", 1 ]
+    ]
+  }
+}

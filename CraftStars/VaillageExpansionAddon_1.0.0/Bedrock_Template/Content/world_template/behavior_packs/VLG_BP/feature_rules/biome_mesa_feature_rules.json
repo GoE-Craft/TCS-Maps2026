@@ -1,0 +1,39 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+    "description": {
+		"identifier": "tcs_vlg:biome_mesa_feature_rules",
+		"places_feature": "tcs_vlg:biome_mesa_feature"
+    },
+    "conditions": {
+		"placement_pass": "after_surface_pass",
+		"minecraft:biome_filter": [
+        {
+          "any_of": [
+            { "test": "has_biome_tag", "operator": "==", "value": "mesa" },
+            { "test": "has_biome_tag", "operator": "==", "value": "mesa_plateau" },
+            { "test": "has_biome_tag", "operator": "==", "value": "mesa_plateau_mutated" },
+            { "test": "has_biome_tag", "operator": "==", "value": "mesa_plateau_stone" },
+            { "test": "has_biome_tag", "operator": "==", "value": "mesa_plateau_stone_mutated" },
+            { "test": "has_biome_tag", "operator": "==", "value": "mesa_bryce" }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+		"iterations": 1,
+		"scatter_chance": 3,
+		"x":{
+			"distribution": "fixed_grid",
+			"step_size": 500,
+			"extent": [10, 100]
+		},
+		"y": "query.heightmap(variable.worldx, variable.worldz)",
+		"z":{
+			"distribution": "fixed_grid",
+			"step_size": 500,
+			"extent": [10, 100]
+		}
+    }
+  }
+}
